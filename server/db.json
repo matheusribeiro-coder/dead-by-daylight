@@ -1,0 +1,104 @@
+{
+  "mapas": [
+    {
+      "id": 1,
+      "nome": "Raccon City",
+      "imagem": "/assets/raccon_city.png"
+    },
+    {
+      "id": 2,
+      "nome": "Destruidores de Autohaven",
+      "imagem": "/assets/destruidores_de_autohaven.png"
+    },
+    {
+      "id": 3,
+      "nome": "Pântano do remanso",
+      "imagem": "/assets/pantano_do_remanso.png"
+    },
+    {
+      "id": 4,
+      "nome": "Hospício de Crotus Prenn",
+      "imagem": "/assets/hospicio_de_crotus_prenn.png"
+    },
+    {
+      "id": 5,
+      "nome": "Abrigo florestal",
+      "imagem": "/assets/abrigo_florestal.png"
+    },
+    {
+      "id": 6,
+      "nome": "Cemitério abandonado",
+      "imagem": "/assets/cemiterio_abandonado.png"
+    },
+    {
+      "id": 7,
+      "nome": "Fabrica de carnes Gideon",
+      "imagem": "/assets/fabrica_de_carnes_gideon.png"
+    },
+    {
+      "id": 8,
+      "nome": "Instituto memorial do Léry",
+      "imagem": "/assets/instituto_memorial_do_lery.png"
+    },
+    {
+      "id": 9,
+      "nome": "Ormond",
+      "imagem": "/assets/ormond.png"
+    },
+    {
+      "id": 10,
+      "nome": "Silent Hill",
+      "imagem": "/assets/silent_hill.png"
+    },
+    {
+      "id": 11,
+      "nome": "Springhood",
+      "imagem": "/assets/springhood.png"
+    },
+    {
+      "id": 12,
+      "nome": "Túmulo de glenvale",
+      "imagem": "/assets/tumulo_de_glenvale.png"
+    },
+    {
+      "id": 13,
+      "nome": "Haddonfield",
+      "imagem": "/assets/haddonfield.png"
+    },
+    {
+      "id": 14,
+      "nome": "Floresta vermelha",
+      "imagem": "/assets/floresta_vermelha.png"
+    },
+    {
+      "id": 15,
+      "nome": "Jardim da alegria",
+      "imagem": "/assets/jardim_da_alegria.png"
+    },
+    {
+      "id": 16,
+      "nome": "Praça despedaçada",
+      "imagem": "/assets/praca_despedacada.png"
+    },
+    {
+      "id": 17,
+      "nome": "Aterrissagem de Toba",
+      "imagem": "/assets/aterrissagem_de_toba.png"
+    },
+    {
+      "id": 18,
+      "nome": "Fazenda Coldwind",
+      "imagem": "/assets/fazenda_coldwind.png"
+    },
+    {
+      "id": 19,
+      "nome": "A propriedade dos Macmillant",
+      "imagem": "/assets/a_propriedade_dos_macmillant.png"
+    },
+    {
+      "id": 20,
+      "nome": "Propriedade Yamaoka",
+      "imagem": "/assets/propriedade_yamaoka.png"
+    }
+  ]
+}
