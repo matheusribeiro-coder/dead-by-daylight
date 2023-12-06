@@ -100,5 +100,187 @@
       "nome": "Propriedade Yamaoka",
       "imagem": "/assets/propriedade_yamaoka.png"
     }
+  ],
+  "characters": [
+    {
+      "id": 1,
+      "name": "Pyramid Head",
+      "role": "assassin",
+      "image": "/assets/characters/pyramid_head"
+    },
+    {
+      "id": 2,
+      "name": "Sadaco",
+      "role": "assassin",
+      "image": "/assets/characters/sadaco"
+    },
+    {
+      "id": 3,
+      "name": "Ghostface",
+      "role": "assassin",
+      "image": "/assets/characters/ghostface"
+    },
+    {
+      "id": 4,
+      "name": "Pinhead",
+      "role": "assassin",
+      "image": "/assets/characters/pinhead"
+    },
+    {
+      "id": 5,
+      "name": "Amanda Young",
+      "role": "assassin",
+      "image": "/assets/characters/amanda_young"
+    },
+    {
+      "id": 6,
+      "name": "The Clown",
+      "role": "assassin",
+      "image": "/assets/characters/the_clown"
+    },
+    {
+      "id": 7,
+      "name": "Michael Myers",
+      "role": "assassin",
+      "image": "/assets/characters/michael_mayers"
+    },
+    {
+      "id": 8,
+      "name": "Freddy Gruguer",
+      "role": "assassin",
+      "image": "/assets/characters/freddy_gruguer"
+    },
+    {
+      "id": 9,
+      "name": "O Canibal",
+      "role": "assassin",
+      "image": "/assets/characters/o_canibal"
+    },
+    {
+      "id": 10,
+      "name": "O Xenomorfo",
+      "role": "assassin",
+      "image": "/assets/characters/o_xenomorfo"
+    },
+    {
+      "id": 11,
+      "name": "A Peste",
+      "role": "assassin",
+      "image": "/assets/characters/a_peste"
+    },
+    {
+      "id": 12,
+      "name": "O Malandro",
+      "role": "assassin",
+      "image": "/assets/characters/o_malandro"
+    },
+    {
+      "id": 13,
+      "name": "O Oni",
+      "role": "assassin",
+      "image": "/assets/characters/o_oni"
+    },
+    {
+      "id": 14,
+      "name": "A Praga",
+      "role": "assassin",
+      "image": "/assets/characters/a_praga"
+    },
+    {
+      "id": 15,
+      "name": "A Artista",
+      "role": "assassin",
+      "image": "/assets/characters/a_artista"
+    },
+    {
+      "id": 16,
+      "name": "O Assassino",
+      "role": "assassin",
+      "image": "/assets/characters/o_assassino"
+    },
+    {
+      "id": 17,
+      "name": "A Singularidade",
+      "role": "assassin",
+      "image": "/assets/characters/a_singularidade"
+    },
+    {
+      "id": 18,
+      "name": "O Cavaleiro",
+      "role": "assassin",
+      "image": "/assets/characters/o_cavaleiro"
+    },
+    {
+      "id": 19,
+      "name": "A Draga",
+      "role": "assassin",
+      "image": "/assets/characters/a_draga"
+    },
+    {
+      "id": 20,
+      "name": "Os gêmeos",
+      "role": "assassin",
+      "image": "/assets/characters/os_gemeos"
+    },
+    {
+      "id": 21,
+      "name": "O Comerciante",
+      "role": "assassin",
+      "image": "/assets/characters/o_comerciante"
+    },
+    {
+      "id": 22,
+      "name": "A Legião",
+      "role": "assassin",
+      "image": "/assets/characters/a_legiao"
+    },
+    {
+      "id": 23,
+      "name": "O Médico",
+      "role": "assassin",
+      "image": "/assets/characters/o_medico"
+    },
+    {
+      "id": 24,
+      "name": "O Cérebro",
+      "role": "assassin",
+      "image": "/assets/characters/o_cerebro"
+    },
+    {
+      "id": 25,
+      "name": "O caçador",
+      "role": "assassin",
+      "image": "/assets/characters/o_cacador"
+    },
+    {
+      "id": 26,
+      "name": "O Espectro",
+      "role": "assassin",
+      "image": "/assets/characters/o_cerebro"
+    },
+    {
+      "id": 27,
+      "name": "O Caipira",
+      "role": "assassin",
+      "image": "/assets/characters/o_caipira"
+    },
+    {
+      "id": 28,
+      "name": "A Enfermeira",
+      "role": "assassin",
+      "image": "/assets/characters/a_enfermeira"
+    },
+    {
+      "id": 29,
+      "name": "A caçadora",
+      "role": "assassin",
+      "image": "/assets/characters/a_cacadora"
+    },
+    {
+      "id": 30,
+      "name": "A Bruxa",
+      "role": "assassin",
+      "image": "/assets/characters/a_bruxa"
+    }
   ]
 }
