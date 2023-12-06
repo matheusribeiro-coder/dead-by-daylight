@@ -1,0 +1,119 @@
+<main class="main">
+  <section class="hero">
+    <div class="hero-container">
+      <div class="content">
+        <div class="left">
+          <div class="hero-image">
+            <img src="/assets/hero-text.svg" alt="">
+          </div>
+          <p>
+            Em Dead by Daylight, persiga, corte e sacrifique sua presa como um assassino monstruoso ou junte-se a uma
+            equipe de quatro sobreviventes astutos trabalhando juntos para escapar.
+          </p>
+          <a href="#" class="btn">Compre o jogo principal</a>
+        </div>
+        <div class="right">
+          <div class="miniature"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="plataformas">
+    <div class="plataformas-content">
+      <p>
+        Bem vindo ao jogo mortal de esconde-esconde
+      </p>
+      <ul class="list">
+        <li class="list-item"><img src="/assets/nintendo.svg" alt=""></li>
+        <li class="list-item"><img src="/assets/xbox.svg" alt=""></li>
+        <li class="list-item"><img src="/assets/playstation.svg" alt=""></li>
+        <li class="list-item"><img src="/assets/computer.svg" alt=""></li>
+        <li class="list-item"><img src="/assets/Vector.svg" alt=""></li>
+        <li class="list-item"><img src="/assets/epic.svg" alt=""></li>
+        <li class="list-item"><img src="/assets/Microsoft logo.svg" alt=""></li>
+      </ul>
+    </div>
+  </section>
+  <section class="personagens">
+    <div class="personagens-container">
+      <div class="content">
+        <div class="card card-assassino">
+          <div class="header">
+            <span class="icon">
+              <img src="/assets/assassino 1.svg" alt="">
+            </span>
+            <h4 class="title">Jogue como <br /> Um assassino(Solo)</h4>
+          </div>
+          <div class="body">
+            <div class="image">
+              <img src="/assets/ghost-face.png" alt="">
+            </div>
+            <div class="image">
+              <img src="/assets/saw.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="card card-sobrevivente">
+          <div class="header">
+            <span class="icon">
+              <img src="/assets/sobrevivente 1.svg" alt="">
+            </span>
+            <h4 class="title">Jogue como <br /> Um sobrevivente(Co-op)</h4>
+          </div>
+          <div class="body">
+            <div class="image">
+              <img src="/assets/resident-evil.png" alt="">
+            </div>
+            <div class="image">
+              <img src="/assets/silent-hill.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="paragrafo">
+        O único jogo onde as maiores franquias do terror colidem
+      </p>
+      <a class="btn" [routerLink]="'/'" routerLinkActive="btn--active" ariaCurrentWhenActive=page
+        [routerLinkActiveOptions]="{'exact': true}">Ver todos os personagens</a>
+    </div>
+  </section>
+  <section class="mapas">
+    <div class="mapas-container">
+      <h2>
+        Explore mais de 15 mapas de arrepiar
+      </h2>
+      <app-map-carousel></app-map-carousel>
+    </div>
+  </section>
+  <section class="jogue-hoje">
+    <div class="jh-container">
+      <div class="content">
+        <div class="wrapper">
+          <h5 class="title">Jogue Dead By <br />Daylight hoje</h5>
+          <ul class="lista">
+            <li class="item">
+              <span class="icon">
+                <img src="/assets/alvo.svg" alt="">
+              </span>
+              Divirta-se sobrevivendo ou caçando
+            </li>
+            <li class="item">
+              <span class="icon">
+                <img src="/assets/conect.svg" alt="">
+              </span>
+              Conecte-se com seus amigos
+            </li>
+            <li class="item">
+              <span class="icon">
+                <img src="/assets/envelope.svg" alt="">
+              </span>
+              Compre coleções de personagens e mapas
+            </li>
+          </ul>
+          <a class="btn" [routerLink]="'/'" routerLinkActive="btn--active" ariaCurrentWhenActive=page
+            [routerLinkActiveOptions]="{'exact': true}">Adquirir agora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

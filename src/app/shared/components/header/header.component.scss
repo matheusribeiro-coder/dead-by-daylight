@@ -1,0 +1,28 @@
+@import '../../../../variables/colors';
+@import '../../../../variables/tipografias';
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 500;
+
+  &-container {
+    max-width: 1440px;
+    height: 85px;
+    padding: 0.75rem 4.5rem;
+    background-color: rgb(9 13 21 / 50%);
+  }
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  background-color: $primary-red;
+  color: $neutral-white;
+}

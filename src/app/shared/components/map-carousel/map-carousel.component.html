@@ -1,0 +1,18 @@
+<div class="container">
+  <ng-template ngFor let-mapa let-i="index" [ngForOf]="mapas">
+    <div class="wrapper" [ngClass]="{'active': selectedIndex == i}">
+      <img [src]="mapa.imagem" [alt]="mapa.nome">
+    </div>
+  </ng-template>
+  <div *ngIf="mapas?.length > 1" class="btn btn-prev" (click)="onPrevButton()">
+    <fa-icon class="icon" [icon]="icon.faChevronLeft"></fa-icon>
+  </div>
+  <div *ngIf="mapas?.length > 1" class="btn btn-next" (click)="onNextButton()">
+    <fa-icon class="icon" [icon]="icon.faChevronRight"></fa-icon>
+  </div>
+  <ng-template ngFor let-mapa let-i="index" [ngForOf]="mapas">
+    <div class="wrapper" [ngClass]="{'active': selectedIndex == i}">
+      <p>{{ mapa.nome }}</p>
+    </div>
+  </ng-template>
+</div>

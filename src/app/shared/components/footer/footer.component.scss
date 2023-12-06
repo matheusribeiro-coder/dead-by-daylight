@@ -1,0 +1,36 @@
+@import "../../../../variables/colors";
+@import "../../../../variables/tipografias";
+
+.footer-container {
+  width: 100%;
+  padding: 3.25rem 4.5rem 3rem;
+  color: $gray-400;
+  @include text-md;
+  @include font-normal;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  padding-top: 1.5rem;
+  gap: 0.5rem;
+}
+
+.destaque {
+  color: $gray-200;
+}
+
+.aviso {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  @include text-xs;
+  @include font-normal;
+}

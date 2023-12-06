@@ -1,0 +1,192 @@
+@import "../../../variables/colors";
+@import "../../../variables/tipografias";
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 3.5rem;
+  background-color: $primary-red;
+  color: $neutral-white;
+  @include text-xl;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+
+  &-container {
+    height: 100%;
+    max-width: 1440px;
+    background-image: url("/assets/banner-topo-home.png");
+    background-size: 113%;
+    background-repeat: no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+  }
+
+  .content {
+    height: 100%;
+    padding: 0 4.5rem;
+    display: flex;
+    align-items: center;
+    color: $neutral-white;
+  }
+
+  .left {
+    width: 56.5%;
+
+    .hero-image {
+      height: 12rem;
+      width: 100%;
+      margin-top: 3rem;
+      margin-bottom: 1.5rem;
+
+      img {
+        height: 100%;
+      }
+    }
+
+    p {
+      @include text-xl;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .right {
+    width: 43.5%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 1rem;
+
+    .miniature {
+      height: 184px;
+      width: 331px;
+      background-image: url("/assets/miniature.png");
+      background-size: cover;
+    }
+  }
+}
+
+.plataformas {
+  &-content {
+    max-width: 1440px;
+    padding: 6rem 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+      @include display-lg;
+      @include font-semi-bold;
+      width: 50%;
+    }
+  }
+
+  .list {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    list-style-type: none;
+
+    &-item {
+      margin: 9.5px 0;
+    }
+  }
+}
+
+.personagens {
+  &-container {
+    padding: 2.75rem 4.5rem 4rem;
+    text-align: center;
+
+    .content {
+      display: flex;
+      gap: 23px;
+    }
+  }
+
+  .paragrafo {
+    @include display-lg;
+    @include font-semi-bold;
+    text-align: center;
+    margin: 3rem 0;
+  }
+
+  .card {
+    flex: 1;
+    @include display-lg;
+    @include font-semi-bold;
+
+    .header {
+      position: relative;
+      margin: 3rem auto 5rem;
+      text-align: center;
+
+      .icon {
+        position: absolute;
+        top: -95px;
+        right: -35px;
+      }
+    }
+
+    .body {
+      display: flex;
+      gap: 30px;
+      width: calc(100% + 30px);
+      position: relative;
+    }
+
+    &-assassino {
+      background-image: url("/assets/fundo_assasino.png");
+      .body {
+        left: -30px;
+      }
+    }
+
+    &-sobrevivente {
+      background-image: url("/assets/fundo_sobrevivente.png");
+    }
+  }
+}
+
+.mapas {
+  &-container {
+    padding: 4rem 4.5rem;
+    text-align: center;
+
+    h2 {
+      @include display-2xl;
+      @include font-semi-bold;
+      padding-bottom: 5rem;
+    }
+  }
+}
+
+
+.jogue-hoje {
+  .jh-container {
+    height: 100%;
+    max-width: 1440px;
+    background-image: url("/assets/banner-jogue-hoje.png");
+  }
+
+  .content {
+    padding: 9.5rem 4.5rem 6rem;
+  }
+
+  .title {
+    padding-bottom: 1.8125rem;
+    @include display-2xl;
+    @include font-semi-bold;
+  }
+
+  .lista {
+    .item {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      padding-bottom: 1.5rem;
+    }
+  }
+}
