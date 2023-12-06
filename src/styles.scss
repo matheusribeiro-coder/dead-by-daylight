@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://use.typekit.net/fcs5ysz.css");
+@import './variables/colors';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  box-sizing: border-box;
+  font-family: "source-sans-pro", sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: $neutral-white;
+  background-color: $gray-950;
+}
+
+a {
+  text-decoration: none;
+}
