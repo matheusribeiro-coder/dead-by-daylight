@@ -106,181 +106,379 @@
       "id": 1,
       "name": "Pyramid Head",
       "role": "assassin",
-      "image": "/assets/characters/pyramid_head"
+      "image": "/assets/characters/pyramid_head.png"
     },
     {
       "id": 2,
       "name": "Sadaco",
       "role": "assassin",
-      "image": "/assets/characters/sadaco"
+      "image": "/assets/characters/sadaco.png"
     },
     {
       "id": 3,
       "name": "Ghostface",
       "role": "assassin",
-      "image": "/assets/characters/ghostface"
+      "image": "/assets/characters/ghostface.png"
     },
     {
       "id": 4,
       "name": "Pinhead",
       "role": "assassin",
-      "image": "/assets/characters/pinhead"
+      "image": "/assets/characters/pinhead.png"
     },
     {
       "id": 5,
       "name": "Amanda Young",
       "role": "assassin",
-      "image": "/assets/characters/amanda_young"
+      "image": "/assets/characters/amanda_young.png"
     },
     {
       "id": 6,
       "name": "The Clown",
       "role": "assassin",
-      "image": "/assets/characters/the_clown"
+      "image": "/assets/characters/the_clown.png"
     },
     {
       "id": 7,
       "name": "Michael Myers",
       "role": "assassin",
-      "image": "/assets/characters/michael_mayers"
+      "image": "/assets/characters/michael_myers.png"
     },
     {
       "id": 8,
       "name": "Freddy Gruguer",
       "role": "assassin",
-      "image": "/assets/characters/freddy_gruguer"
+      "image": "/assets/characters/freddy_gruguer.png"
     },
     {
       "id": 9,
       "name": "O Canibal",
       "role": "assassin",
-      "image": "/assets/characters/o_canibal"
+      "image": "/assets/characters/o_canibal.png"
     },
     {
       "id": 10,
       "name": "O Xenomorfo",
       "role": "assassin",
-      "image": "/assets/characters/o_xenomorfo"
+      "image": "/assets/characters/o_xenomorfo.png"
     },
     {
       "id": 11,
       "name": "A Peste",
       "role": "assassin",
-      "image": "/assets/characters/a_peste"
+      "image": "/assets/characters/a_peste.png"
     },
     {
       "id": 12,
       "name": "O Malandro",
       "role": "assassin",
-      "image": "/assets/characters/o_malandro"
+      "image": "/assets/characters/o_malandro.png"
     },
     {
       "id": 13,
       "name": "O Oni",
       "role": "assassin",
-      "image": "/assets/characters/o_oni"
+      "image": "/assets/characters/o_oni.png"
     },
     {
       "id": 14,
       "name": "A Praga",
       "role": "assassin",
-      "image": "/assets/characters/a_praga"
+      "image": "/assets/characters/a_praga.png"
     },
     {
       "id": 15,
       "name": "A Artista",
       "role": "assassin",
-      "image": "/assets/characters/a_artista"
+      "image": "/assets/characters/a_artista.png"
     },
     {
       "id": 16,
       "name": "O Assassino",
       "role": "assassin",
-      "image": "/assets/characters/o_assassino"
+      "image": "/assets/characters/o_assassino.png"
     },
     {
       "id": 17,
       "name": "A Singularidade",
       "role": "assassin",
-      "image": "/assets/characters/a_singularidade"
+      "image": "/assets/characters/a_singularidade.png"
     },
     {
       "id": 18,
       "name": "O Cavaleiro",
       "role": "assassin",
-      "image": "/assets/characters/o_cavaleiro"
+      "image": "/assets/characters/o_cavaleiro.png"
     },
     {
       "id": 19,
       "name": "A Draga",
       "role": "assassin",
-      "image": "/assets/characters/a_draga"
+      "image": "/assets/characters/a_draga.png"
     },
     {
       "id": 20,
       "name": "Os gêmeos",
       "role": "assassin",
-      "image": "/assets/characters/os_gemeos"
+      "image": "/assets/characters/os_gemeos.png"
     },
     {
       "id": 21,
       "name": "O Comerciante",
       "role": "assassin",
-      "image": "/assets/characters/o_comerciante"
+      "image": "/assets/characters/o_comerciante.png"
     },
     {
       "id": 22,
       "name": "A Legião",
       "role": "assassin",
-      "image": "/assets/characters/a_legiao"
+      "image": "/assets/characters/a_legiao.png"
     },
     {
       "id": 23,
       "name": "O Médico",
       "role": "assassin",
-      "image": "/assets/characters/o_medico"
+      "image": "/assets/characters/o_medico.png"
     },
     {
       "id": 24,
       "name": "O Cérebro",
       "role": "assassin",
-      "image": "/assets/characters/o_cerebro"
+      "image": "/assets/characters/o_cerebro.png"
     },
     {
       "id": 25,
       "name": "O caçador",
       "role": "assassin",
-      "image": "/assets/characters/o_cacador"
+      "image": "/assets/characters/o_cacador.png"
     },
     {
       "id": 26,
       "name": "O Espectro",
       "role": "assassin",
-      "image": "/assets/characters/o_cerebro"
+      "image": "/assets/characters/o_cerebro.png"
     },
     {
       "id": 27,
       "name": "O Caipira",
       "role": "assassin",
-      "image": "/assets/characters/o_caipira"
+      "image": "/assets/characters/o_caipira.png"
     },
     {
       "id": 28,
       "name": "A Enfermeira",
       "role": "assassin",
-      "image": "/assets/characters/a_enfermeira"
+      "image": "/assets/characters/a_enfermeira.png"
     },
     {
       "id": 29,
       "name": "A caçadora",
       "role": "assassin",
-      "image": "/assets/characters/a_cacadora"
+      "image": "/assets/characters/a_cacadora.png"
     },
     {
       "id": 30,
       "name": "A Bruxa",
       "role": "assassin",
-      "image": "/assets/characters/a_bruxa"
+      "image": "/assets/characters/a_bruxa.png"
+    },
+    {
+      "id": 31,
+      "name": "Dwing Fairfield",
+      "role": "survivor",
+      "image": "/assets/characters/dwing_fairfield.png"
+    },
+    {
+      "id": 32,
+      "name": "Meg Thomas",
+      "role": "survivor",
+      "image": "/assets/characters/meg_thomas.png"
+    },
+    {
+      "id": 33,
+      "name": "Claudette Morel",
+      "role": "survivor",
+      "image": "/assets/characters/claudette_morel.png"
+    },
+    {
+      "id": 34,
+      "name": "Jill Valentine",
+      "role": "survivor",
+      "image": "/assets/characters/jill_valentine.png"
+    },
+    {
+      "id": 35,
+      "name": "Nicolas Cage",
+      "role": "survivor",
+      "image": "/assets/characters/nicolas_cage.png"
+    },
+    {
+      "id": 36,
+      "name": "Nea Karlsson",
+      "role": "survivor",
+      "image": "/assets/characters/nea_karlsson.png"
+    },
+    {
+      "id": 37,
+      "name": "David King",
+      "role": "survivor",
+      "image": "/assets/characters/david_king.png"
+    },
+    {
+      "id": 38,
+      "name": "Laurie Strode",
+      "role": "survivor",
+      "image": "/assets/characters/laurie_strode.png"
+    },
+    {
+      "id": 39,
+      "name": "Ace Visconti",
+      "role": "survivor",
+      "image": "/assets/characters/ace_visconti.png"
+    },
+    {
+      "id": 40,
+      "name": "Feng Min",
+      "role": "survivor",
+      "image": "/assets/characters/feng_min.png"
+    },
+    {
+      "id": 41,
+      "name": "Quentin Smith",
+      "role": "survivor",
+      "image": "/assets/characters/quentin_smith.png"
+    },
+    {
+      "id": 42,
+      "name": "David Tapp",
+      "role": "survivor",
+      "image": "/assets/characters/david_tapp.png"
+    },
+    {
+      "id": 43,
+      "name": "Jeff Johansen",
+      "role": "survivor",
+      "image": "/assets/characters/jeff_johansen.png"
+    },
+    {
+      "id": 44,
+      "name": "Jane Romero",
+      "role": "survivor",
+      "image": "/assets/characters/jane_romero.png"
+    },
+    {
+      "id": 45,
+      "name": "Ashley Williams",
+      "role": "survivor",
+      "image": "/assets/characters/ashley_williams.png"
+    },
+    {
+      "id": 46,
+      "name": "Yui Kimura",
+      "role": "survivor",
+      "image": "/assets/characters/yui_kimura.png"
+    },
+    {
+      "id": 47,
+      "name": "Zarina Kassir",
+      "role": "survivor",
+      "image": "/assets/characters/zarina_kassir.png"
+    },
+    {
+      "id": 48,
+      "name": "Cheryl Mason",
+      "role": "survivor",
+      "image": "/assets/characters/cheryl_mason.png"
+    },
+    {
+      "id": 49,
+      "name": "Felix Richter",
+      "role": "survivor",
+      "image": "/assets/characters/felix_richter.png"
+    },
+    {
+      "id": 50,
+      "name": "Élodie Rakoto",
+      "role": "survivor",
+      "image": "/assets/characters/elodie_rakoto.png"
+    },
+    {
+      "id": 51,
+      "name": "Yun-Ji Lee",
+      "role": "survivor",
+      "image": "/assets/characters/yun_ji_lee.png"
+    },
+    {
+      "id": 52,
+      "name": "Jack Park",
+      "role": "survivor",
+      "image": "/assets/characters/jack_park.png"
+    },
+    {
+      "id": 53,
+      "name": "Mikaela Reid",
+      "role": "survivor",
+      "image": "/assets/characters/mikaela_reid.png"
+    },
+    {
+      "id": 54,
+      "name": "Jonah Vasquez",
+      "role": "survivor",
+      "image": "/assets/characters/jonah_vasquez.png"
+    },
+    {
+      "id": 55,
+      "name": "Yoichi Asakawa",
+      "role": "survivor",
+      "image": "/assets/characters/yoichi_asakawa.png"
+    },
+    {
+      "id": 56,
+      "name": "Haddie Kaur",
+      "role": "survivor",
+      "image": "/assets/characters/haddie_kaur.png"
+    },
+    {
+      "id": 57,
+      "name": "Ada Wong",
+      "role": "survivor",
+      "image": "/assets/characters/ada_wong.png"
+    },
+    {
+      "id": 58,
+      "name": "Rebeca Chamber",
+      "role": "survivor",
+      "image": "/assets/characters/rebeca_chamber.png"
+    },
+    {
+      "id": 59,
+      "name": "Vittorio Toscano",
+      "role": "survivor",
+      "image": "/assets/characters/vittorio_toscano.png"
+    },
+    {
+      "id": 60,
+      "name": "Thalita Lyra",
+      "role": "survivor",
+      "image": "/assets/characters/thalita_lyra.png"
+    },
+    {
+      "id": 61,
+      "name": "Renato Lyra",
+      "role": "survivor",
+      "image": "/assets/characters/renato_lyra.png"
+    },
+    {
+      "id": 62,
+      "name": "Gabriel Soma",
+      "role": "survivor",
+      "image": "/assets/characters/gabriel_soma.png"
+    },
+    {
+      "id": 63,
+      "name": "Bill Overback",
+      "role": "survivor",
+      "image": "/assets/characters/bill_overback.png"
     }
   ]
 }

@@ -1,0 +1,131 @@
+@import "../../../variables/colors";
+@import "../../../variables/tipografias";
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 3.5rem;
+  background-color: transparent;
+  border: 1px solid $gray-500;
+  color: $neutral-white;
+  @include text-xl;
+
+  &:first-child {
+    border-right-color: transparent;
+    &.active {
+      background-color: $primary-red;
+      border-color: $primary-red;
+    }
+  }
+
+  &:last-child {
+    border-left-color: transparent;
+    &.active {
+      background-color: $primary-blue;
+      border-color: $primary-blue;
+    }
+  }
+}
+
+.side {
+  height: 100vh;
+  width: 100%;
+
+  &-container {
+    height: 100%;
+    max-width: 1440px;
+    // background-image: url("/assets/banner_assassinos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .content {
+    height: 100%;
+    padding: 0 4.5rem;
+    display: flex;
+    align-items: center;
+    color: $neutral-white;
+  }
+
+  .title {
+    @include display-2xl;
+    @include font-semi-bold;
+  }
+}
+
+.botao-pesquisar {
+  .wrapper {
+    display: flex;
+    color: $gray-400;
+
+    .pesquisar {
+      background-color: transparent;
+      border: 1px solid $gray-500;
+      outline: none;
+
+      &:focus {
+        border: 1px solid $gray-400;
+      }
+    }
+
+    .icon {
+      color: $gray-50;
+    }
+  }
+}
+
+.personagens {
+  &-content {
+    padding: 4rem 4.5rem;
+    color: $neutral-white;
+  }
+
+  .title {
+    @include display-lg;
+    @include font-semi-bold;
+    padding-bottom: 3.1875rem;
+  }
+
+  .card {
+    .title {
+      @include display-sm;
+      @include font-semi-bold;
+      padding-top: 1.25rem;
+    }
+  }
+}
+
+.jogue-hoje {
+  .jh-container {
+    height: 100%;
+    max-width: 1440px;
+    background-image: url("/assets/banner-jogue-hoje.png");
+  }
+
+  .content {
+    padding: 9.5rem 4.5rem 6rem;
+  }
+
+  .title {
+    padding-bottom: 1.8125rem;
+    @include display-2xl;
+    @include font-semi-bold;
+  }
+
+  .lista {
+    .item {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      padding-bottom: 1.5rem;
+    }
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 3.5rem;
+    background-color: $primary-red;
+    color: $neutral-white;
+    border: none;
+    @include text-xl;
+  }
+}

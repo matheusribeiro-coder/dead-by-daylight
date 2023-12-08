@@ -2,15 +2,15 @@
 module.exports = {
   content: [
     "./src/**/*.{html,ts}",
-    './pages/**/*.{html,js}',
-    './shared/components/**/*.{html,js}',
+
   ],
   theme: {
+
     extend: {
       colors: {
         primary: {
-          red: '80080A',
-          blue: '0866B0'
+          red: '#80080A',
+          blue: '#0866B0'
         },
         gray: {
           50: '#F9FAFB',

@@ -18,9 +18,15 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 18px;
   color: $neutral-white;
-  background-color: $gray-950;
+  background-color: $gray-900;
 }
 
 a {
   text-decoration: none;
+}
+
+textarea:focus, input:focus, select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
 }

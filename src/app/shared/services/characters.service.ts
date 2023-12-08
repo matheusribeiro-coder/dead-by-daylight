@@ -26,7 +26,11 @@ export class CharactersService {
     return this._http.get<Personagem>(`http://localhost:3000/characters?id=${id}`)
   }
 
-  public buscarPersonagemPorNome(search: string): Observable<Personagem> {
-    return this._http.get<Personagem>(`http://localhost:3000/characters?name=${search}`)
+  public buscarPersonagensPorNome(search: string, role: string): Observable<Personagem[]> {
+    return this._http.get<Personagem[]>(`http://localhost:3000/characters?name=${search}&role=${role}`)
+  }
+
+  public buscarPersonagensPorPapel(search: string): Observable<Personagem[]> {
+    return this._http.get<Personagem[]>(`http://localhost:3000/characters?role=${search}`)
   }
 }
